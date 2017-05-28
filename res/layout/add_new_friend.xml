@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#E8E8E8"
+	android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dip"
+        android:layout_centerInParent="true" >
+    
+    <EditText android:id="@+id/newFriendUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:singleLine="true"
+        android:inputType="text"
+        android:padding="10dip"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:hint="@string/type_friend_username"/>  	
+    
+	<Button android:id="@+id/addFriend"
+	    android:textColor="#fff"
+	    android:textStyle="bold"
+	    android:background="#36802D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newFriendUsername"
+        android:text="@string/add" />
+	</RelativeLayout>
+</RelativeLayout>
