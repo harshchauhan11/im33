@@ -1,11 +1,11 @@
 I'm 33
 =========
 
-##Android Messaging App for PRoject 33
+## Android Messaging App for PRoject 33
 
-###Features
+### Features
 
-    User registration
+    * User registration
     User authentication
     Adding a new friend by username
     Approving a friend
